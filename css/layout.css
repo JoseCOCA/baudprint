@@ -83,10 +83,18 @@ properly.
 /* ================================================================== */
 
 header {
-   height: 54px;
+   height: 70px;
    width: 100%;
    z-index: 99999;
-   background: url(../images/k-opacity-70.png);
+background: rgb(20,57,31); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(20,57,31,1) 0%, rgba(102,159,63,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(20,57,31,1)), color-stop(100%,rgba(102,159,63,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14391f', endColorstr='#669f3f',GradientType=1 ); /* IE6-9 */
+   /*background: url(../images/k-opacity-70.png);*/
 
    position: fixed;
    top: 0;
@@ -100,21 +108,29 @@ header.static {
 /* header logo */
 header .logo {
    position: relative;
-   height: 54px;
-   width: 150px;
-   float: left;
+   height: 70px;
+   width: 30%;
+   /*width: 150px;
+   float: left;*/
+   display: inline-block;
+   vertical-align: top;
+   text-align: center;
 }
 header .logo a {
    display: block;
    padding: 0;
-   margin: 0;
+   margin: auto;
+   /*margin: 0;*/
    height: 18px;
-   width: 91px;
+   /*width: 91px;*/
    line-height: 18px;
 
-   position: absolute;
+   /*position: absolute;
    left: 12px;
-   top: 16px;
+   top: 16px;*/
+}
+header .logo img{
+	max-width: inherit;
 }
 
 /* primary navigation
@@ -130,28 +146,36 @@ header .logo a {
 #nav-wrap {
 	position: relative;
    font: 13px opensans-regular, sans-serif;
-   float: left;
+   /*float: left;*/
+   display: inline-block;
+   vertical-align: top;
+   width: 65%;
+   text-align: center;
 }
 
 /* hide toggle button */
 #nav-wrap > a { display: none; }
 
 ul#nav {
-   min-height: 54px;
-   width: auto;
+
+	min-height: 70px;
+	width: 80%;
+	text-align: right;
+   /*width: auto;*/
 
    /* left align the menu */
-   text-align: left;
+   /*text-align: left;*/
 }
 ul#nav li {
 	position: relative;
 	list-style: none;
-   height: 54px;
+   height: 70px;
 
    display: inline-block;
 }
 ul#nav > li.active a {
-   background: #11ABB0;
+   background: rgba(141, 198, 63, 0.68);
+   /*background: #11ABB0;*/
    color: #fff !important;
 }
 
@@ -159,7 +183,7 @@ ul#nav > li.active a {
 ul#nav li a {
    display: block;
    padding: 0 14px;
-   line-height: 54px;
+   line-height: 70px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
@@ -173,7 +197,8 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li:hover > a,
-ul#nav li.active a { color: #11ABB0; }
+ul#nav li.active a { color: #8dc63f; }
+/*ul#nav li.active a { color: #11ABB0; }*/
 
 
 
