@@ -23,13 +23,13 @@
 
    // main directions
    map = new GMaps({
-      el: '#map', lat: 14.553533, lng: 121.052124, zoom: 14, zoomControl : true,
+      el: '#map', lat: 19.3392754, lng: -99.1495863, zoom: 17, zoomControl : true,
       zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
    });
 
    // add address markers
-   map.addMarker({ lat: 14.552891, lng: 121.051815, title: 'Eco Tower',
-   infoWindow: { content: '<p>You can add your address 1 here</p>' } });
+   map.addMarker({ lat: 19.3392754, lng: -99.1495863, title: 'Eco Tower',
+   infoWindow: { content: '<p>LOS PINOS # 203 COL. EL ROSEDAL DELEGACIÓN COYOACAN <br> MÉXICO D.F. C.P. 04330 <br> E-MAIL.- ventas@gruporusam.net <br> TEL (55) 56899078 <br> 55447136 <br> 55444101 </p>' } });
 
 /*----------------------------------------------------*/
 /*	contact form
@@ -59,7 +59,7 @@
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn();
             }
             // There was an error
             else {
