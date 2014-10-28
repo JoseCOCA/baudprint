@@ -57,6 +57,14 @@ time, mark, audio, video {
    background: transparent;
 }
 
+html, body{
+   height: 100%;
+   overflow: auto;
+}
+body{
+   overflow: hidden;
+}
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
    display: block;
@@ -118,6 +126,7 @@ table {
 }
 
 
+
 /* ------------------------------------------------------------------ */
 /* c. Default Styles
       Adapted from:
@@ -138,17 +147,26 @@ table {
 body {
    background: #151719 url(../images/bg.png);
 	font: 15px/30px opensans-regular, sans-serif;
-	color: #838C95;
+	color: rgb(102, 102,102);
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 }
 
+.absolute{
+   position: absolute !important;
+}
+.verde{
+   color: rgb(141,198,63) !important;
+}
+.verde-oscuro{
+   color: rgb(20,57,31) !important;
+}
 /*  2. Typography
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
+   color: #666;
 	font-family: montserrat-regular, sans-serif;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -588,6 +606,15 @@ legend span {
 .row {
    width: 96%;
    max-width: 1008px;
+   margin: 0 auto;
+
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+.row.sp {
+   width: 100%;
+   max-width: 100%;
    margin: 0 auto;
 
    -moz-box-sizing: border-box;

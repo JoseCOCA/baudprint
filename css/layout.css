@@ -159,7 +159,7 @@ header .logo img{
 ul#nav {
 
 	min-height: 70px;
-	width: 80%;
+	width: 90%;
 	text-align: right;
    /*width: auto;*/
 
@@ -200,7 +200,10 @@ ul#nav li:hover > a,
 ul#nav li.active a { color: #8dc63f; }
 /*ul#nav li.active a { color: #8dc63f; }*/
 
-
+#nav li span, #nav li img{
+   display: inline-block;
+   vertical-align: middle;
+}
 
 /* ================================================================== */
 
@@ -299,13 +302,32 @@ background-position-y: 0px;
 /* ================================================================== */
 
 #services {
-   background: #1b1e21 url(../images/patterns/servicesbg.png);
+   background: rgb(256,256,256);
+   /*background-image: url(../images/services.png);
    padding-top: 70px;
-   /*padding-top: 156px;*/
+   padding-top: 156px;*/
    /*padding-bottom: 120px;*/
+   padding-top: 70px;
    color: #4E565F;
 }
 
+#services-head{
+   background: rgb(20,57,31);
+   background: -moz-linear-gradient(left, rgba(20,57,31,1) 0%, rgba(102,159,63,1) 100%);
+   background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(20,57,31,1)), color-stop(100%,rgba(102,159,63,1)));
+   background: -webkit-linear-gradient(left, rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%);
+   background: -o-linear-gradient(left, rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%);
+   background: -ms-linear-gradient(left, rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%);
+   background: linear-gradient(to right, rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14391f', endColorstr='#669f3f',GradientType=1 );
+
+position: absolute;
+/*position: fixed;*/
+width: 100%;
+max-height: 220px;
+bottom: 0;
+
+}
 #services a, #services a:visited  { color: #C4C4C4; }
 #services a:hover, #services a:focus { color: #8dc63f; }
 
@@ -339,7 +361,7 @@ background-position-y: 0px;
 /* ================================================================== */
 
 #portfolio {
-   background: #f5f5f5 url(../images/patterns/grey.png);
+   background: #383838;
    padding-top: 70px;
    /*padding-bottom: 120px;*/
 }
@@ -362,6 +384,8 @@ background-position-y: 0px;
    float: none;
    display: inline-block;
    vertical-align: top;
+background-size: 105%;
+background-position: center;
 }
 
 .portfolio-item .item-wrap {
@@ -383,30 +407,38 @@ background-position-y: 0px;
 .portfolio-item .portfolio-item-meta {
 	padding: 12px 0;
 	/*display: none;*/
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-opacity: 0;
-transition: opacity .3s ease;
+   position: absolute;
+   /* top: 0; 
+   left: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   transition: opacity .3s ease;*/
 
-background: rgb(20,57,31); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(20,57,31,1) 0%, rgba(102,159,63,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(20,57,31,1)), color-stop(100%,rgba(102,159,63,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* IE10+ */
-background: linear-gradient(to right,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14391f', endColorstr='#669f3f',GradientType=1 ); /* IE6-9 */
+   background: rgb(20,57,31); /* Old browsers */
+   background: -moz-linear-gradient(left,  rgba(20,57,31,1) 0%, rgba(102,159,63,1) 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(20,57,31,1)), color-stop(100%,rgba(102,159,63,1))); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(left,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(left,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(left,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* IE10+ */
+   background: linear-gradient(to right,  rgba(20,57,31,1) 0%,rgba(102,159,63,1) 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14391f', endColorstr='#669f3f',GradientType=1 ); /* IE6-9 */
+
+   padding-top: 60%;
+   padding-left: 20px;
 }
-.portfolio-item .portfolio-item-meta:hover {
+.portfolio-item .item-wrap img{
+   opacity: .8;
+   transition: opacity .2s;
+}
+.portfolio-item .portfolio-item-meta:hover, .portfolio-item:hover .portfolio-item-meta, .portfolio-item:hover .item-wrap img {
 	opacity: 1;
+   transform: translateY(0%);
 }
 .portfolio-item .portfolio-item-meta h5 {
    font: 13px/24px montserrat-bold, sans-serif;
    color: white;
-   margin-left: 7%;
+   /*margin-left: 7%;*/
 
 }
 
@@ -699,10 +731,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14391f', end
    width: 100%;
    background-color: #F6F4EF;*/
    display: block;
-width: 70%;
-background-color: #F6F4EF;
-margin: auto;
-height: 220px;
+   width: 70%;
+   background-color: #F6F4EF;
+   margin: auto;
+   height: 220px;
+   box-shadow: -3px 3px 2px rgb(26, 26, 26);
 }
 
 #map img { max-width:inherit !important; }
@@ -721,11 +754,17 @@ height: 220px;
 /* ================================================================== */
 
 #contact {
-   background-color: #25292D;
+   background-color: #383838;
+   background-image: url(../images/footer-bg.png);
+   background-size: 100% 60%;
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
    padding-top: 70px;
    /*padding-top: 108px;*/
    padding-bottom: 120px;
    color: #707B89;
+   position: relative;
+   z-index: 1000;
 }
 
 #contact a, #contact a:visited  { color: #C4C4C4; }
@@ -754,7 +793,7 @@ height: 220px;
    padding: 10px;
    /*padding: 18px 20px;*/
 	color: #eee;
-	background: #3F464B;
+	background: #212121;
 	margin-bottom: 10px;
 	/*margin-bottom: 42px;*/
 	border: 0;
@@ -771,7 +810,7 @@ height: 220px;
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #696969;
+	background-color: #3F3F3F;
 }
 #contact button.submit {
 	font: 18px/30px montserrat-bold, sans-serif;
@@ -1221,10 +1260,15 @@ ol.commentlist {
 /* ================================================================== */
 
 footer {
-   margin-top: 30px;
-   margin-bottom: 30px;
-   color: #303030;
+   z-index: 10;
+   position: absolute;
+   width: 100%;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   color: #5C5C5C;
+   background-color: #171717;
    font-size: 14px;
+   box-shadow: inset 0px 3px 5px #030303;
 }
 footer a, footer a:visited { color: #0B686B; }
 footer a:hover, footer a:focus { color: #fff; }
@@ -1303,7 +1347,8 @@ footer .social-links li:first-child { margin-left: 0; }
    -------------------------------------------------------------------- */
    #portfolio #portfolio-wrapper { margin-top: 12px; }
    #portfolio #portfolio-wrapper .col { width: 33.33333%; }
-
+   .parallax-1-1 { height:  310px; }
+   .parallax-2 {height: 220px !important;}
    /* journal section
    -------------------------------------------------------------------- */
    #journal .blog-entries { margin-top: 30px; }
@@ -1371,8 +1416,9 @@ footer .social-links li:first-child { margin-left: 0; }
    .mobile #nav-wrap {
       position: absolute;
       top: 0;
-      right: 20px;
-      width: auto;
+      right: 10px;
+      width: 100%;
+      /* width: auto; */
       margin: 0;
    }
    .mobile #nav-wrap > a {
@@ -1430,6 +1476,7 @@ footer .social-links li:first-child { margin-left: 0; }
       background: #4c4e5a;
       margin: 0;
       clear: both;
+      width: 100%;
    }
    .mobile #nav-wrap ul#nav li { border-bottom: 1px dotted #595B6A; }
    .mobile #nav-wrap ul#nav li a {
@@ -1658,6 +1705,25 @@ footer .social-links li:first-child { margin-left: 0; }
       float: none;
    }
    footer .social-links { margin-top: 12px; }
+
+
+.intro-cont{position: relative !important;}
+#intro {height: auto !important;}
+.texto-intro>div {position: relative !important;}
+.texto-intro {padding: 0px !important;}
+#engrane-1 {left: 0 !important;
+height: 300px !important;
+max-height: 300px !important;
+max-width: 300px !important;
+width: 300px !important;}
+#engrane-2 {
+height: 210px !important;
+max-height: 210px !important;
+max-width: 210px !important;
+width: 210px !important;
+top: 300px !important;
+left: 67px !important;
+}
 
 }
 

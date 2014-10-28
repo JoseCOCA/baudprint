@@ -1,0 +1,6 @@
+.DS_Store
+FOTO 11.tif
+IMG00003.jpg
+IMG00005.jpg
+IMG00007.jpg
+lista.txt

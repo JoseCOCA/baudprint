@@ -1,0 +1,16 @@
+.DS_Store
+IMG_2048.JPG
+IMG_2050.jpg
+IMG_2052.jpg
+IMG_2053.jpg
+IMG_2054.JPG
+IMG_2056.jpg
+IMG_2057.jpg
+IMG_2058.jpg
+IMG_2060.jpg
+IMG_2063.jpg
+IMG_2064.jpg
+IMG_2065.jpg
+IMG_2068.jpg
+IMG_2072.jpg
+lista.txt

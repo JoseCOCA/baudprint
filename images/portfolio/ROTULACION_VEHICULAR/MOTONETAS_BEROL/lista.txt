@@ -1,0 +1,7 @@
+la foto[15].JPG
+la foto[17].JPG
+la foto[19].JPG
+la foto[5].JPG
+la foto[7].JPG
+la foto[9].JPG
+lista.txt
