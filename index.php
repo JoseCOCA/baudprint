@@ -123,15 +123,15 @@
          </div>
 
          <div class="col two-thirds parallax-1-1">
-            <img src="images/parallax/gradient-4.png" class="parallax-disenio" data-bottom-top="transform:translateY(10%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-10%);" />
-            <img src="images/parallax/gradient-3.png" class="parallax-disenio" data-bottom-top="transform:translateY(10%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-10%);" />
-            <img src="images/parallax/pantalla.png" class="parallax-disenio" />
-            <img src="images/parallax/impresora.png" class="parallax-disenio"  />
-            <img src="images/parallax/pantone.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-50%);" />
-            <img src="images/parallax/print-2.png" class="parallax-disenio" />
-            <img src="images/parallax/gradient-2.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-50%);" />
-            <img src="images/parallax/print-1.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(0%);" data--300-top="transform:translateY(-50%);" />
-            <img src="images/parallax/gradient-1.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-50%);" />
+            <img src="images/parallax/hoja1.png" class="parallax-disenio" data-bottom-top="transform:translateY(10%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-10%);" />
+            <img src="images/parallax/pantonera1.png" class="parallax-disenio" data-bottom-top="transform:translateY(10%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-10%);" />
+            <img src="images/parallax/hoja2.png" class="parallax-disenio" />
+            <img src="images/parallax/plotter.png" class="parallax-disenio"  />
+            <img src="images/parallax/pantoneras.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-50%);" />
+            <img src="images/parallax/hoja3.png" class="parallax-disenio" />
+            <img src="images/parallax/pantonera2.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-50%);" />
+            <img src="images/parallax/pantonera3.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(0%);" data--300-top="transform:translateY(-50%);" />
+            <img src="images/parallax/hoja4.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(0%);" data--500-top="transform:translateY(-50%);" />
          </div>
 
       </div>
