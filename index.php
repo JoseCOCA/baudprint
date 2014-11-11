@@ -140,14 +140,15 @@
 
 
          <div class="col two-thirds parallax-2">
-            <img src="images/parallax/engrane-3.png" class="parallax-disenio" data-bottom-top="transform:translateY(10%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-10%);" style="height:500px; top: 20px; left: 180px;" />
-            <img src="images/parallax/engrane-2.png" class="parallax-disenio" data-bottom-top="transform:translateY(10%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-10%);" style="height:500px; top: 10px; left: 60px;" />
-            <img src="images/parallax/reloj.png" class="parallax-disenio" />
-            <img src="images/parallax/martillo.png" class="parallax-disenio" />
-            <img src="images/parallax/camion.png" class="parallax-disenio" />
-            <img src="images/parallax/engrane-1.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-50%);" />
+            <img src="images/parallax/tuerca4.png" class="parallax-disenio" data-bottom-top="transform:translateY(10%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-10%);" style="height:500px; top: 20px; left: 180px;" />
+            <img src="images/parallax/camioneta.png" class="parallax-disenio" />
+            <img src="images/parallax/martillo.png" class="parallax-disenio" data-bottom-top="transform:translateY(10%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-10%);" style="height:500px; top: 10px; left: 60px;" />
+            <img src="images/parallax/tuerca2.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-50%);" />
+            <img src="images/parallax/engranes.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-50%);" />
+            <img src="images/parallax/metro1.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-50%);" />
             <img src="images/parallax/taladro.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-50%);" />
-            <img src="images/parallax/flexometro.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-50%);" />
+            <img src="images/parallax/metro2.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-50%);" />
+            <img src="images/parallax/tuerca4.png" class="parallax-disenio" data-bottom-top="transform:translateY(50%);" data-center="transform:translateY(-0%);" data--500-top="transform:translateY(-50%);" />
          </div>
 
          <div class="col one-third" style="padding-top:50px;">
